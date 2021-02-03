@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@null"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_message_toast"
+        android:text="大家好"
+        android:textColor="@color/white_alpha_100"
+        android:maxWidth="@dimen/alivc_video_call_max_width"
+        android:minWidth="@dimen/padding_10"
+        android:padding="@dimen/padding_10"
+        android:textSize="@dimen/alivc_common_font_12"
+        android:gravity="center"
+        android:background="@color/black_alpha_90"
+        android:layout_height="wrap_content" />
+</LinearLayout>

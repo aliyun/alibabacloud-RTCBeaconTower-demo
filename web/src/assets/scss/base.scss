@@ -1,0 +1,20 @@
+@function rem($n) {
+    @return (($n * 1rem) / 75); // 设计稿的宽度像素值750, 要除以10  75=750(设计稿)/10(rem.js里的10)
+}
+@function vh($n) {
+    @return (($n * 100vh) / 720);
+}
+@function vw($n) {
+    @return (($n * 100vw) / 1024); 
+}
+/*基础颜色*/
+$color:#46aaff;
+$borderColor:#c1c1c1;
+$backgroundColor:#eee;
+
+.main-box{
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+    border: 1px solid $borderColor;
+}

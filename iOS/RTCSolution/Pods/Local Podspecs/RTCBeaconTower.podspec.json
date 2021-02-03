@@ -1,0 +1,43 @@
+{
+  "name": "RTCBeaconTower",
+  "version": "0.1.0",
+  "summary": "A short description of RTCBeaconTower.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCBeaconTower",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": "aliyunvideo"
+  },
+  "source": {
+    "git": "https://github.com/aliyunvideo/RTCBeaconTower.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RTCBeaconTower/**/*.{h,m,mm}",
+  "resources": "RTCBeaconTower/Resources/*.bundle",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ],
+    "AliRTCSdk": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ]
+  }
+}

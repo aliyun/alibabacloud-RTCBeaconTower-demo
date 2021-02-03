@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AliRTCSdk (1.19.3.2012296):
+    - AliRTCSdk/AliRTCSdk (= 1.19.3.2012296)
+  - AliRTCSdk/AliRTCSdk (1.19.3.2012296)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - ReactiveObjC (3.1.1)
+  - RTCBeaconTower (0.1.0):
+    - AliRTCSdk
+    - Masonry
+    - ReactiveObjC
+    - RTCCommon
+    - RTCCommonView
+  - RTCCommon (0.1.0):
+    - AFNetworking
+  - RTCCommonView (0.1.0):
+    - MBProgressHUD
+    - RTCCommon
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`, tag `4.0.1`)
+  - AliRTCSdk (from `AliRtcSDK_iOS`)
+  - RTCBeaconTower (from `RTCBeaconTower`)
+  - RTCCommon (from `RTCCommon`)
+  - RTCCommonView (from `RTCCommonView`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MBProgressHUD
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+    :tag: 4.0.1
+  AliRTCSdk:
+    :path: AliRtcSDK_iOS
+  RTCBeaconTower:
+    :path: RTCBeaconTower
+  RTCCommon:
+    :path: RTCCommon
+  RTCCommonView:
+    :path: RTCCommonView
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+    :tag: 4.0.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AliRTCSdk: a0ee00efd95d89a8ec13d5e15b453bdedb635c90
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RTCBeaconTower: 9062a1aed63041d463f0fee738db5d1b3fbc234d
+  RTCCommon: 9132e1533863bf06b0e0963701f08f66cfbdef35
+  RTCCommonView: fd95938c23a53cdfde54c04b7a7b7afdd3b717a8
+
+PODFILE CHECKSUM: 82ec02b3ff08a450600b9650fa6b6864bb9733ed
+
+COCOAPODS: 1.5.0

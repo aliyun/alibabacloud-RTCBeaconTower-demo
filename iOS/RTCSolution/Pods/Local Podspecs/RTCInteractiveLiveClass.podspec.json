@@ -1,0 +1,43 @@
+{
+  "name": "RTCInteractiveLiveClass",
+  "version": "0.1.0",
+  "summary": "A short description of RTCInteractiveLiveClass.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCInteractiveLiveClass",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": ""
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RTCInteractiveLiveClass/**/*.{h,m,mm}",
+  "resources": [
+    "RTCInteractiveLiveClass/RTCInteractiveLiveClass.bundle",
+    "RTCInteractiveLiveClass/*.storyboard"
+  ],
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "AliRTCSdk": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ]
+  }
+}

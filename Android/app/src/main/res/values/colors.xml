@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="colorAccent">#00C1DE</color>
+    <color name="colorAccentTranslucent">#bbFF80AB</color>
+
+    <color name="black_alpha_5">#1a000000</color>
+    <color name="dark_gray">#FF2c2c2c</color>
+    <color name="holo_light_gray">#F8F8FF</color>
+
+    <color name="yellow_alpha_100">#FF9806</color>
+
+
+    <color name="color_user_id">#c3c5c6</color>
+
+    <color name="white_alpha_100">#ffffffff</color>
+    <color name="white_alpha_10">#1affffff</color>
+    <color name="white_alpha_20">#33ffffff</color>
+    <color name="white_alpha_30">#4dffffff</color>
+    <color name="white_alpha_40">#66ffffff</color>
+    <color name="white_alpha_50">#7fffffff</color>
+    <color name="white_alpha_60">#99ffffff</color>
+    <color name="white_alpha_70">#b3ffffff</color>
+    <color name="white_alpha_80">#ccffffff</color>
+    <color name="white_alpha_90">#0DFFFFFF</color>
+
+    <color name="black_alpha_100">#000000</color>
+
+    <color name="black_alpha_50">#7f000000</color>
+    <color name="black_alpha_80">#cc000000</color>
+    <color name="black_alpha_90">#E6000000</color>
+    <color name="black_alpha_70">#1D212C</color>
+
+    <color name="gray_alpha_10">#7f000000</color>
+    <color name="aliv_gray_light">#C3C5C6 </color>
+    <color name="gray_alpha_video_btn">#55eeeeee</color>
+
+    <color name="color_shader_red">#FA00FF</color>
+    <color name="color_shader_blue">#FA00FF</color>
+
+    <color name="color_selector_black">#373D41</color>
+    <color name="color_selector_blue">#00C1DE</color>
+
+    <color name="color_gray_net_error_tips">#C0C0C0</color>
+
+    <color name="color_selector_red">#FC4347</color>
+    <color name="color_error_tips_red">#FFFC4347</color>
+
+    <!--其他一些常用颜色，除字体、背景色、线-->
+    <color name="alivc_common_white">#ffffffff</color>
+    <color name="alivc_common_gray_999">#999</color>
+    <color name="alivc_common_cyan_light">#3998F7</color>
+    <color name="alivc_b3d8fc">#B3D8FC</color>
+
+    <!--公用字体颜色-->
+    <color name="alivc_common_font_black">#000000</color>
+    <color name="alivc_common_font_black_alpha_30">#4d000000</color>
+    <color name="alivc_common_font_black_alpha_70">#B3000000</color>
+    <color name="alivc_common_font_white">#ffffffff</color>
+    <color name="alivc_common_bg_black">#ff000000</color>
+
+</resources>

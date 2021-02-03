@@ -1,0 +1,48 @@
+<resources>
+    <string name="alirtc_title">AliRTCSample</string>
+    <string name="alirtc_join_channel">开始</string>
+    <string name="alirtc_attention">频道ID不能为空！</string>
+    <string name="alirtc_out">退出</string>
+    <string name="alirtc_mode">视频会议</string>
+    <string name="alirtc_permission">请先给予权限</string>
+    <string name="alirtc_enter">确定</string>
+    <string name="alirtc_channel_hint">请输入频道号（3-12位数字）</string>
+    <string name="alirtc_channel_error">频道号长度不能小于3位或大于12位</string>
+    <string name="alirtc_chart_flip">是否镜像</string>
+    <string name="alirtc_chart_show_media_info">显示媒体信息</string>
+
+
+    <string name="app_name">烽火台</string>
+    <string name="aliyun_video_call">视频通话</string>
+    <string name="aliyun_audio_call">语音通话</string>
+    <string name="aliyun_getuser_fail">获取用户信息失败</string>
+    <string name="aliyun_joinchannel_hint">请输入创建的频道号（1~12位数字）</string>
+    <string name="aliyun_create_channel">创建会议</string>
+    <string name="aliyun_rtc_hint">阿里云音视频通信RTC提供基础通信服务</string>
+    <string name="aliyun_time_txt_include_hour">%1$s:%2$s:%3$s</string>
+    <string name="aliyun_time_txt">%1$s:%2$s</string>
+    <string name="aliyun_tips_waiting">请等待其他人加入..</string>
+    <string name="aliyun_tips_handsfree_on">免提已经开启</string>
+    <string name="aliyun_tips_handsfree_off">免提已经关闭</string>
+    <string name="aliyun_tips_mute_on">静音已经开启</string>
+    <string name="aliyun_tips_mute_off">静音已经关闭</string>
+    <string name="aliyun_tips_mutelocal_camera_off">关闭远程视频成功</string>
+    <string name="aliyun_tips_mutelocal_camera_on">开启远程视频成功</string>
+    <string name="aliyun_tips_voice_mode">语音模式切换敬请期待</string>
+    <string name="aliyun_tips_switch_camera">切换摄像头成功</string>
+    <string name="aliyun_tips_input_type_error">输入格式错误，请重新输入</string>
+    <string name="aliyun_net_connect_error">网络连接失败</string>
+    <string name="aliyun_net_connect_error_tips">请检查你的网络设置或重试</string>
+    <string name="aliyun_retry">重试</string>
+    <string name="alivc_video_call_channel">%s有事儿已退出频道</string>
+    <string name="aliyun_hang_up">挂断</string>
+    <string name="aliyun_hands_free">免提</string>
+    <string name="aliyun_mute">静音</string>
+    <string name="aliyun_camera">摄像头</string>
+    <string name="aliyun_phonetic_mode">语音模式</string>
+    <string name="aliyun_lens_flip">镜头翻转</string>
+    <string name="alivc_videocall_net_error_timeout">网络超时，请退出房间</string>
+    <string name="alivc_videocall_sure">确定</string>
+    <string name="str_channel_code">会议码:%s</string>
+
+</resources>

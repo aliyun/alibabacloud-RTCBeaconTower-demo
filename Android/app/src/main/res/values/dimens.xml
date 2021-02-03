@@ -1,0 +1,86 @@
+<resources>
+    <!-- FloatingActionButton -->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+    <dimen name="title_size">16sp</dimen>
+
+    <!--chart buttion size-->
+    <dimen name="chart_control_btn_size">48dp</dimen>
+    <dimen name="chart_control_btn_border_width">1dp</dimen>
+    <dimen name="chart_control_btn_tv_size">10sp</dimen>
+    <dimen name="chart_control_btn_margin">10dp</dimen>
+
+    <!--Chart User List Item-->
+    <dimen name="chart_ccontent_userlist_item_width">150dp</dimen>
+    <dimen name="chart_ccontent_userlist_item_divider">4dp</dimen>
+
+    <dimen name="audio_accompany_btn_width">72dp</dimen>
+    <dimen name="audio_accompany_btn_height">44.6dp</dimen>
+
+    <dimen name="seek_bar_scrubber_height">6dp</dimen>
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+
+    <dimen name="log_back_corner_radius">16dp</dimen>
+    <dimen name="log_item_vertical_padding">6dp</dimen>
+    <dimen name="log_item_horizontal_padding">10dp</dimen>
+    <dimen name="log_text_size">10sp</dimen>
+    <dimen name="log_item_offset">3dp</dimen>
+
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_44">44dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_55">55dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_90">90dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_104">104dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="dimen_339">339dp</dimen>
+
+
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_23">23dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_78">78dp</dimen>
+    <dimen name="margin_174">174dp</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="alivc_font_size_24px">12sp</dimen>
+    <dimen name="alivc_font_size_22px">11sp</dimen>
+    <dimen name="alivc_font_size_28px">14sp</dimen>
+    <dimen name="alivc_font_size_32px">16sp</dimen>
+    <dimen name="alivc_font_size_36px">18sp</dimen>
+    <dimen name="alivc_common_font_14">14sp</dimen>
+    <dimen name="alivc_common_font_16">16sp</dimen>
+    <dimen name="alivc_common_font_12">16sp</dimen>
+    <dimen name="alivc_common_font_11">11sp</dimen>
+    <dimen name="alivc_common_font_18">18sp</dimen>
+
+    <dimen name="alivc_video_call_max_width">200dp</dimen>
+    <dimen name="alivc_video_call_item_width">90dp</dimen>
+    <dimen name="alivc_video_call_image_width">64dp</dimen>
+</resources>

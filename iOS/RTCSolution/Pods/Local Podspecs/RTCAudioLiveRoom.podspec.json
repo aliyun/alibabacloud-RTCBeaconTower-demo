@@ -1,0 +1,43 @@
+{
+  "name": "RTCAudioLiveRoom",
+  "version": "0.1.0",
+  "summary": "A short description of RTCAudioLiveRoom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCAudioLiveRoom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": "aliyunvideo"
+  },
+  "source": {
+    "git": "https://github.com/aliyunvideo/RTCAudioLiveRoom.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RTCAudioLiveRoom/**/*.{h,m,mm}",
+  "resources": [
+    "RTCAudioLiveRoom/Resources/*.bundle",
+    "RTCAudioLiveRoom/Resources/*.storyboard"
+  ],
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ],
+    "AliRTCSdk": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
+}

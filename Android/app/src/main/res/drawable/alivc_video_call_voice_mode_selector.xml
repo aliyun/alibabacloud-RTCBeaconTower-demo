@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorAccent" />
+                </shape>
+            </item>
+            <item
+                android:gravity="center"
+                android:drawable="@drawable/alivc_video_call_voice_mode_checked"/>
+        </layer-list>
+    </item>
+
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorAccent" />
+                </shape>
+            </item>
+            <item
+                android:gravity="center"
+                android:drawable="@drawable/alivc_video_call_voice_mode_checked"/>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <!--<solid android:color="@android:color/transparent" />-->
+                    <solid android:color="@color/gray_alpha_video_btn" />
+                    <stroke
+                        android:width="@dimen/dimen_1"
+                        android:color="@color/aliv_gray_light" />
+                </shape>
+            </item>
+            <item
+                android:gravity="center"
+                android:drawable="@drawable/alivc_video_call_voice_mode"/>
+        </layer-list>
+    </item>
+
+    <!-- 默认状态，此元素必须写在最后，否则状态无效 -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/transparent" />
+                    <stroke
+                        android:width="@dimen/dimen_1"
+                        android:color="@color/white_alpha_100" />
+                </shape>
+            </item>
+            <item
+                android:gravity="center"
+                android:drawable="@drawable/alivc_video_call_voice_mode"/>
+        </layer-list>
+    </item>
+</selector>

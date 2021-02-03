@@ -1,0 +1,51 @@
+{
+  "name": "RtcMultiplayerVideo",
+  "version": "0.1.0",
+  "summary": "A short description of RtcMultiplayerVideo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lili/RtcMultiplayerVideo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lili": "wb-ll501135@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/lili/RtcMultiplayerVideo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": [
+    "RtcMultiplayerVideo/Assets/*.bundle",
+    "RtcMultiplayerVideo/Assets/*.storyboard"
+  ],
+  "source_files": "RtcMultiplayerVideo/Classes/**/*",
+  "resource_bundles": {
+    "RtcMultiplayerVideo": [
+      "RtcMultiplayerVideo/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ],
+    "AliRTCSdk": [
+
+    ],
+    "AliPlayerSDK_iOS": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "JXCategoryView": [
+      "1.5.6"
+    ]
+  }
+}

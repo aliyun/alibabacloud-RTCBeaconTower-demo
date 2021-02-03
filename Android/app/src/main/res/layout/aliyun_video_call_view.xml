@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_video_call_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_common_bg_black">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/big_surface_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/alivc_video_call_remote_contentview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="@dimen/margin_6"
+            android:layout_marginLeft="@dimen/margin_6"
+            android:layout_marginTop="@dimen/margin_6"
+            android:overScrollMode="never" />
+
+    </FrameLayout>
+
+
+    <com.aliyun.apsaravideo.sophon.videocall.view.AlivcControlView
+        android:id="@+id/alivc_video_call_controlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_40" />
+
+
+    <com.aliyun.apsaravideo.sophon.videocall.view.AlivcTimeTextView
+        android:id="@+id/tv_video_call_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/alivc_video_call_controlView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:textColor="@color/alivc_common_font_white"
+        android:textSize="@dimen/alivc_common_font_16" />
+
+
+</RelativeLayout>

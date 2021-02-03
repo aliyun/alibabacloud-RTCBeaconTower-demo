@@ -1,0 +1,55 @@
+{
+  "name": "RTCVideoLiveRoom",
+  "version": "0.1.0",
+  "summary": "A short description of RTCVideoLiveRoom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCVideoLiveRoom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": ""
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RTCVideoLiveRoom/**/*.{h,m,mm}",
+  "resources": [
+    "RTCVideoLiveRoom/RTCVideoLiveRoom.bundle",
+    "RTCVideoLiveRoom/*.storyboard"
+  ],
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ],
+    "AliRTCSdk": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+      "5.8.1"
+    ],
+    "MJExtension": [
+
+    ],
+    "JXCategoryView": [
+      "1.5.6"
+    ],
+    "AliPlayerSDK_iOS": [
+      "4.7.5"
+    ]
+  }
+}

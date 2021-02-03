@@ -1,0 +1,43 @@
+{
+  "name": "RTCSmallClass",
+  "version": "0.1.0",
+  "summary": "A short description of RTCSmallClass.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCSmallClass",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": ""
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RTCSmallClass/**/*.{h,m,mm}",
+  "resources": [
+    "RTCSmallClass/RTCSmallClass.bundle",
+    "RTCSmallClass/*.storyboard"
+  ],
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ],
+    "AliRTCSdk": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
+}

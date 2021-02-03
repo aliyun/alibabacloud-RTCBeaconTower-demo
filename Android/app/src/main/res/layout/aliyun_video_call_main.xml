@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44"
+        android:background="@color/black_alpha_70">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            tools:text="会议码:123456"
+            android:textColor="@color/alivc_common_white"
+            android:textSize="@dimen/alivc_common_font_16" />
+
+        <TextView
+            android:id="@+id/tv_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="复制"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_selector_blue" />
+    </RelativeLayout>
+
+    <com.aliyun.apsaravideo.sophon.videocall.AlivcVideoCallView
+        android:id="@+id/alivc_videocall_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

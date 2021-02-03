@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/alivc_videocall_img_mute"
+                style="@style/RoundImageButtonStyle"
+                android:layout_gravity="center"
+                android:background="@drawable/alivc_video_call_mute_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_mute"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageButton
+                android:id="@+id/btn_voice_mode"
+                style="@style/RoundImageButtonStyle"
+                android:layout_gravity="center"
+                android:background="@drawable/alivc_video_call_voice_mode_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_phonetic_mode"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_camera_preview"
+                style="@style/RoundImageButtonStyle"
+                android:layout_gravity="center"
+                android:background="@drawable/alivc_video_call_mute_local_camera_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_camera"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@android:color/transparent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_switch_camera"
+                style="@style/RoundImageButtonStyle"
+                android:layout_gravity="center"
+                android:background="@drawable/alivc_video_call_switch_camera_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_lens_flip"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_hang_up"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/alivc_round_bg_selector"
+                android:scaleType="centerInside"
+                android:src="@drawable/alivc_video_call_hang_up" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_hang_up"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_handsfree"
+                style="@style/RoundImageButtonStyle"
+                android:layout_gravity="center"
+                android:background="@drawable/alivc_video_call_handsfree_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/aliyun_hands_free"
+                android:textColor="@color/white_alpha_100"
+                android:textSize="@dimen/alivc_common_font_12" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

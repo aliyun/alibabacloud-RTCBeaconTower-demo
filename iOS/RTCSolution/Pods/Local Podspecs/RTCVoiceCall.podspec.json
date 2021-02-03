@@ -1,0 +1,43 @@
+{
+  "name": "RTCVoiceCall",
+  "version": "0.1.0",
+  "summary": "A short description of VoiceCall.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aliyunvideo/RTCVoiceCall",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aliyunvideo": ""
+  },
+  "source": {
+    "git": "",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RTCVoiceCall/**/*.{h,m,mm}",
+  "resources": "RTCVoiceCall/VoiceCall.bundle",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "AliRTCSdk": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "AFNetworking/Reachability": [
+
+    ],
+    "RTCCommon": [
+
+    ],
+    "RTCCommonView": [
+
+    ]
+  }
+}

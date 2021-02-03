@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/chart_content_userlist_item_video_layout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/chart_userlist_item_video_layout_bg">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_alpha_70" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_default_header"
+                android:visibility="visible" />
+
+            <FrameLayout
+                android:id="@+id/chart_content_userlist_item_surface_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chart_content_userlist_item_screen_layout"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/chart_userlist_item_video_layout_bg">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_alpha_70" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_default_header"
+                android:visibility="visible" />
+            <FrameLayout
+                android:id="@+id/chart_content_userlist_item2_surface_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/alivc_common_white"
+        android:textSize="12sp" />
+</FrameLayout>

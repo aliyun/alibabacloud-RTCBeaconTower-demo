@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_alpha_70"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/aliyun_video_call"
+            android:textColor="@color/white_alpha_100"
+            android:textSize="@dimen/alivc_common_font_16" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_below="@+id/rl_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/user_setting_bg_lines" />
+
+    <ImageView
+        android:id="@+id/iv_user_avatar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_default_header_bg" />
+
+    <ImageView
+        android:layout_below="@+id/rl_content_title"
+        android:id="@+id/iv_user_avatar"
+        android:layout_width="@dimen/dimen_90"
+        android:layout_height="@dimen/dimen_90"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_45"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_user_avatar_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_3"
+        android:textColor="@color/aliv_gray_light"
+        android:textSize="@dimen/alivc_common_font_12"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_user_id"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_48"
+            android:layout_marginStart="@dimen/dimen_32"
+            android:layout_marginEnd="@dimen/dimen_32"
+            android:background="@drawable/alirtc_bg_create_channel_selector"
+            android:hint="请输入用户名"
+            android:inputType="text"
+            android:paddingStart="6dp"
+            android:paddingLeft="6dp"
+            android:textColor="@color/alivc_common_white"
+            android:textColorHint="@color/alivc_common_white"
+            android:textSize="@dimen/labels_text_size" />
+
+        <FrameLayout
+            android:id="@+id/fl_channel_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/et_channel_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginStart="@dimen/dimen_32"
+                android:layout_marginLeft="@dimen/dimen_32"
+                android:layout_marginEnd="132dp"
+                android:layout_marginRight="132dp"
+                android:background="@drawable/alirtc_bg_create_nickname_selector"
+                android:hint="请输入会议码"
+                android:inputType="number"
+                android:padding="@dimen/dimen_3"
+                android:paddingStart="6dp"
+                android:paddingLeft="6dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/alivc_common_white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_meeting_join"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/dimen_32"
+                android:layout_marginRight="@dimen/dimen_32"
+                android:background="@drawable/alirtc_bg_bt_create_shape"
+                android:gravity="center"
+                android:onClick="joinChannel"
+                android:text="加入会议"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_show_error_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="@dimen/margin_12"
+            android:drawableStart="@drawable/alivc_video_icon_error"
+            android:drawableLeft="@drawable/alivc_video_icon_error"
+            android:drawablePadding="@dimen/margin_12"
+            android:text="@string/aliyun_tips_input_type_error"
+            android:textColor="@color/color_error_tips_red"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_meeting_create"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_44"
+            android:layout_marginStart="@dimen/dimen_32"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="@dimen/dimen_32"
+            android:layout_marginRight="@dimen/dimen_32"
+            android:background="@drawable/alivc_btn_bg_selector"
+            android:gravity="center"
+            android:onClick="createChannel"
+            android:text="@string/aliyun_create_channel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/alivc_common_font_16" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_8"
+        android:gravity="center"
+        android:textColor="@color/white_alpha_100"
+        android:textSize="@dimen/alivc_common_font_16" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:text="@string/aliyun_rtc_hint"
+        android:textColor="@color/white_alpha_100" />
+
+
+</RelativeLayout>
